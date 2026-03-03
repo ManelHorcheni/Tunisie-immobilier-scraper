@@ -1,0 +1,11 @@
+       description  price_numeric  surface  rooms  ...  total_floors  agent_name  phone  email
+count          0.0   7.500000e+01      0.0    0.0  ...           0.0         0.0    0.0    0.0
+mean           NaN   6.292749e+05      NaN    NaN  ...           NaN         NaN    NaN    NaN
+std            NaN   5.863574e+05      NaN    NaN  ...           NaN         NaN    NaN    NaN
+min            NaN   1.010000e+04      NaN    NaN  ...           NaN         NaN    NaN    NaN
+25%            NaN   2.375000e+05      NaN    NaN  ...           NaN         NaN    NaN    NaN
+50%            NaN   3.600000e+05      NaN    NaN  ...           NaN         NaN    NaN    NaN
+75%            NaN   8.550000e+05      NaN    NaN  ...           NaN         NaN    NaN    NaN
+max            NaN   2.400000e+06      NaN    NaN  ...           NaN         NaN    NaN    NaN
+
+[8 rows x 11 columns]

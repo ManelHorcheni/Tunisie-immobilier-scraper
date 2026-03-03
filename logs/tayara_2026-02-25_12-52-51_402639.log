@@ -1,0 +1,5 @@
+2026-02-25 12:52:51.405 | INFO     | agents.base_agent:run:103 - 🚀 Démarrage de tayara
+2026-02-25 12:52:51.408 | INFO     | __main__:scrape:99 - Scraping Tayara page 1...
+2026-02-25 12:52:55.795 | WARNING  | agents.base_agent:get_page:71 - Page 404: https://www.tayara.tn/annonces/immobilier/vente/?page=1
+2026-02-25 12:52:55.797 | INFO     | agents.base_agent:run:107 - ✅ tayara terminé: 0 annonces
+2026-02-25 12:52:56.009 | INFO     | agents.base_agent:run:128 - ⏱️  Temps d'exécution: 4.6 secondes

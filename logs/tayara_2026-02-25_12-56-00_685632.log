@@ -1,0 +1,13 @@
+2026-02-25 12:56:00.687 | INFO     | agents.base_agent:run:103 - 🚀 Démarrage de tayara
+2026-02-25 12:56:00.689 | INFO     | __main__:scrape:204 - 🔍 Recherche de la bonne URL...
+2026-02-25 12:56:00.689 | INFO     | __main__:discover_correct_url:36 - Test de l'URL: https://www.tayara.tn/immobilier/vente/
+2026-02-25 12:56:31.741 | INFO     | __main__:discover_correct_url:36 - Test de l'URL: https://www.tayara.tn/annonces/immobilier/vente/
+2026-02-25 12:57:02.349 | INFO     | __main__:discover_correct_url:36 - Test de l'URL: https://www.tayara.tn/fr/immobilier/vente/
+2026-02-25 12:57:32.734 | INFO     | __main__:discover_correct_url:36 - Test de l'URL: https://www.tayara.tn/c/immobilier/vente/
+2026-02-25 12:58:03.243 | INFO     | __main__:discover_correct_url:36 - Test de l'URL: https://www.tayara.tn/properties/for-sale/
+2026-02-25 12:58:33.703 | WARNING  | __main__:discover_correct_url:46 - ⚠️ Aucune URL directe trouvée, tentative via page d'accueil
+2026-02-25 12:58:33.705 | WARNING  | __main__:scrape:206 - ⚠️ Utilisation de la méthode alternative (page d'accueil)
+2026-02-25 12:58:36.897 | INFO     | __main__:get_page:107 - Redirigé vers: https://www.tayara.tn/
+2026-02-25 12:58:36.953 | ERROR    | __main__:scrape:221 - ❌ Impossible de trouver des annonces
+2026-02-25 12:58:36.954 | INFO     | agents.base_agent:run:107 - ✅ tayara terminé: 0 annonces
+2026-02-25 12:58:37.066 | INFO     | agents.base_agent:run:128 - ⏱️  Temps d'exécution: 156.4 secondes

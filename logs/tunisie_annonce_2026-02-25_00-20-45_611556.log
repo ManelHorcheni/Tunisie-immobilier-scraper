@@ -1,0 +1,498 @@
+2026-02-25 00:20:45.618 | INFO     | agents.base_agent:run:103 - 🚀 Démarrage de tunisie_annonce
+2026-02-25 00:20:50.954 | INFO     | __main__:scrape:140 - 📄 Scraping page 1
+2026-02-25 00:20:53.613 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 1
+2026-02-25 00:20:58.604 | INFO     | __main__:scrape:140 - 📄 Scraping page 2
+2026-02-25 00:21:02.280 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 2
+2026-02-25 00:21:07.383 | INFO     | __main__:scrape:140 - 📄 Scraping page 3
+2026-02-25 00:21:12.402 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 3
+2026-02-25 00:21:17.036 | INFO     | __main__:scrape:140 - 📄 Scraping page 4
+2026-02-25 00:21:21.246 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 4
+2026-02-25 00:21:25.917 | INFO     | __main__:scrape:140 - 📄 Scraping page 5
+2026-02-25 00:21:29.773 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 5
+2026-02-25 00:21:35.412 | INFO     | __main__:scrape:140 - 📄 Scraping page 6
+2026-02-25 00:21:38.211 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 6
+2026-02-25 00:21:43.552 | INFO     | __main__:scrape:140 - 📄 Scraping page 7
+2026-02-25 00:21:46.637 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 7
+2026-02-25 00:21:51.859 | INFO     | __main__:scrape:140 - 📄 Scraping page 8
+2026-02-25 00:21:55.013 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 8
+2026-02-25 00:22:00.066 | INFO     | __main__:scrape:140 - 📄 Scraping page 9
+2026-02-25 00:22:04.335 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 9
+2026-02-25 00:22:09.129 | INFO     | __main__:scrape:140 - 📄 Scraping page 10
+2026-02-25 00:22:12.224 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 10
+2026-02-25 00:22:17.363 | INFO     | __main__:scrape:140 - 📄 Scraping page 11
+2026-02-25 00:22:21.439 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 11
+2026-02-25 00:22:26.332 | INFO     | __main__:scrape:140 - 📄 Scraping page 12
+2026-02-25 00:22:30.902 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 12
+2026-02-25 00:22:36.243 | INFO     | __main__:scrape:140 - 📄 Scraping page 13
+2026-02-25 00:22:39.269 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 13
+2026-02-25 00:22:44.509 | INFO     | __main__:scrape:140 - 📄 Scraping page 14
+2026-02-25 00:22:49.011 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 14
+2026-02-25 00:22:53.622 | INFO     | __main__:scrape:140 - 📄 Scraping page 15
+2026-02-25 00:22:57.450 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 15
+2026-02-25 00:23:02.304 | INFO     | __main__:scrape:140 - 📄 Scraping page 16
+2026-02-25 00:23:05.513 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 16
+2026-02-25 00:23:10.728 | INFO     | __main__:scrape:140 - 📄 Scraping page 17
+2026-02-25 00:23:16.027 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 17
+2026-02-25 00:23:20.531 | INFO     | __main__:scrape:140 - 📄 Scraping page 18
+2026-02-25 00:23:23.839 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 18
+2026-02-25 00:23:28.921 | INFO     | __main__:scrape:140 - 📄 Scraping page 19
+2026-02-25 00:23:31.876 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 19
+2026-02-25 00:23:37.122 | INFO     | __main__:scrape:140 - 📄 Scraping page 20
+2026-02-25 00:23:40.659 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 20
+2026-02-25 00:23:45.722 | INFO     | __main__:scrape:140 - 📄 Scraping page 21
+2026-02-25 00:23:50.316 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 21
+2026-02-25 00:23:55.238 | INFO     | __main__:scrape:140 - 📄 Scraping page 22
+2026-02-25 00:23:59.997 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 22
+2026-02-25 00:24:04.969 | INFO     | __main__:scrape:140 - 📄 Scraping page 23
+2026-02-25 00:24:08.551 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 23
+2026-02-25 00:24:13.717 | INFO     | __main__:scrape:140 - 📄 Scraping page 24
+2026-02-25 00:24:18.819 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 24
+2026-02-25 00:24:23.677 | INFO     | __main__:scrape:140 - 📄 Scraping page 25
+2026-02-25 00:24:27.854 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 25
+2026-02-25 00:24:32.805 | INFO     | __main__:scrape:140 - 📄 Scraping page 26
+2026-02-25 00:24:37.078 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 26
+2026-02-25 00:24:42.601 | INFO     | __main__:scrape:140 - 📄 Scraping page 27
+2026-02-25 00:24:45.338 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 27
+2026-02-25 00:24:55.278 | INFO     | __main__:scrape:140 - 📄 Scraping page 28
+2026-02-25 00:25:00.581 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 28
+2026-02-25 00:25:06.427 | INFO     | __main__:scrape:140 - 📄 Scraping page 29
+2026-02-25 00:25:11.936 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 29
+2026-02-25 00:25:16.421 | INFO     | __main__:scrape:140 - 📄 Scraping page 30
+2026-02-25 00:25:20.463 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 30
+2026-02-25 00:25:25.811 | INFO     | __main__:scrape:140 - 📄 Scraping page 31
+2026-02-25 00:25:30.257 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 31
+2026-02-25 00:25:35.329 | INFO     | __main__:scrape:140 - 📄 Scraping page 32
+2026-02-25 00:25:38.124 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 32
+2026-02-25 00:25:43.772 | INFO     | __main__:scrape:140 - 📄 Scraping page 33
+2026-02-25 00:25:48.151 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 33
+2026-02-25 00:25:57.044 | INFO     | __main__:scrape:140 - 📄 Scraping page 34
+2026-02-25 00:26:02.233 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 34
+2026-02-25 00:26:10.196 | INFO     | __main__:scrape:140 - 📄 Scraping page 35
+2026-02-25 00:26:14.970 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 35
+2026-02-25 00:26:30.718 | INFO     | __main__:scrape:140 - 📄 Scraping page 36
+2026-02-25 00:26:34.404 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 36
+2026-02-25 00:26:48.725 | INFO     | __main__:scrape:140 - 📄 Scraping page 37
+2026-02-25 00:26:54.331 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 37
+2026-02-25 00:27:07.229 | INFO     | __main__:scrape:140 - 📄 Scraping page 38
+2026-02-25 00:27:10.365 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 38
+2026-02-25 00:27:26.635 | INFO     | __main__:scrape:140 - 📄 Scraping page 39
+2026-02-25 00:27:32.582 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 39
+2026-02-25 00:27:50.085 | INFO     | __main__:scrape:140 - 📄 Scraping page 40
+2026-02-25 00:27:54.601 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 40
+2026-02-25 00:28:10.432 | INFO     | __main__:scrape:140 - 📄 Scraping page 41
+2026-02-25 00:28:15.803 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 41
+2026-02-25 00:28:29.556 | INFO     | __main__:scrape:140 - 📄 Scraping page 42
+2026-02-25 00:28:33.072 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 42
+2026-02-25 00:28:42.741 | INFO     | __main__:scrape:140 - 📄 Scraping page 43
+2026-02-25 00:28:46.962 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 43
+2026-02-25 00:28:56.557 | INFO     | __main__:scrape:140 - 📄 Scraping page 44
+2026-02-25 00:28:59.482 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 44
+2026-02-25 00:29:10.125 | INFO     | __main__:scrape:140 - 📄 Scraping page 45
+2026-02-25 00:29:14.047 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 45
+2026-02-25 00:29:24.701 | INFO     | __main__:scrape:140 - 📄 Scraping page 46
+2026-02-25 00:29:27.677 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 46
+2026-02-25 00:29:33.210 | INFO     | __main__:scrape:140 - 📄 Scraping page 47
+2026-02-25 00:29:35.599 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 47
+2026-02-25 00:29:42.457 | INFO     | __main__:scrape:140 - 📄 Scraping page 48
+2026-02-25 00:29:46.895 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 48
+2026-02-25 00:29:52.188 | INFO     | __main__:scrape:140 - 📄 Scraping page 49
+2026-02-25 00:29:55.432 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 49
+2026-02-25 00:30:00.955 | INFO     | __main__:scrape:140 - 📄 Scraping page 50
+2026-02-25 00:30:05.652 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 50
+2026-02-25 00:30:10.807 | INFO     | __main__:scrape:140 - 📄 Scraping page 51
+2026-02-25 00:30:15.833 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 51
+2026-02-25 00:30:20.715 | INFO     | __main__:scrape:140 - 📄 Scraping page 52
+2026-02-25 00:30:25.941 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 52
+2026-02-25 00:30:31.089 | INFO     | __main__:scrape:140 - 📄 Scraping page 53
+2026-02-25 00:30:33.862 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 53
+2026-02-25 00:30:40.470 | INFO     | __main__:scrape:140 - 📄 Scraping page 54
+2026-02-25 00:30:45.068 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 54
+2026-02-25 00:30:50.096 | INFO     | __main__:scrape:140 - 📄 Scraping page 55
+2026-02-25 00:30:52.916 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 55
+2026-02-25 00:30:58.605 | INFO     | __main__:scrape:140 - 📄 Scraping page 56
+2026-02-25 00:31:02.170 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 56
+2026-02-25 00:31:07.520 | INFO     | __main__:scrape:140 - 📄 Scraping page 57
+2026-02-25 00:31:10.282 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 57
+2026-02-25 00:31:15.625 | INFO     | __main__:scrape:140 - 📄 Scraping page 58
+2026-02-25 00:31:19.094 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 58
+2026-02-25 00:31:24.472 | INFO     | __main__:scrape:140 - 📄 Scraping page 59
+2026-02-25 00:31:28.746 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 59
+2026-02-25 00:31:34.035 | INFO     | __main__:scrape:140 - 📄 Scraping page 60
+2026-02-25 00:31:39.310 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 60
+2026-02-25 00:31:45.009 | INFO     | __main__:scrape:140 - 📄 Scraping page 61
+2026-02-25 00:31:50.191 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 61
+2026-02-25 00:31:54.839 | INFO     | __main__:scrape:140 - 📄 Scraping page 62
+2026-02-25 00:31:57.400 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 62
+2026-02-25 00:32:02.123 | INFO     | __main__:scrape:140 - 📄 Scraping page 63
+2026-02-25 00:32:07.502 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 63
+2026-02-25 00:32:11.716 | INFO     | __main__:scrape:140 - 📄 Scraping page 64
+2026-02-25 00:32:14.589 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 64
+2026-02-25 00:32:19.418 | INFO     | __main__:scrape:140 - 📄 Scraping page 65
+2026-02-25 00:32:24.713 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 65
+2026-02-25 00:32:29.169 | INFO     | __main__:scrape:140 - 📄 Scraping page 66
+2026-02-25 00:32:33.600 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 66
+2026-02-25 00:32:39.081 | INFO     | __main__:scrape:140 - 📄 Scraping page 67
+2026-02-25 00:32:43.781 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 67
+2026-02-25 00:32:51.207 | INFO     | __main__:scrape:140 - 📄 Scraping page 68
+2026-02-25 00:32:56.035 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 68
+2026-02-25 00:33:04.829 | INFO     | __main__:scrape:140 - 📄 Scraping page 69
+2026-02-25 00:33:09.456 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 69
+2026-02-25 00:33:15.001 | INFO     | __main__:scrape:140 - 📄 Scraping page 70
+2026-02-25 00:33:20.202 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 70
+2026-02-25 00:33:28.047 | INFO     | __main__:scrape:140 - 📄 Scraping page 71
+2026-02-25 00:33:31.721 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 71
+2026-02-25 00:33:37.698 | INFO     | __main__:scrape:140 - 📄 Scraping page 72
+2026-02-25 00:33:41.712 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 72
+2026-02-25 00:33:47.090 | INFO     | __main__:scrape:140 - 📄 Scraping page 73
+2026-02-25 00:33:49.807 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 73
+2026-02-25 00:33:54.552 | INFO     | __main__:scrape:140 - 📄 Scraping page 74
+2026-02-25 00:33:58.729 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 74
+2026-02-25 00:34:03.187 | INFO     | __main__:scrape:140 - 📄 Scraping page 75
+2026-02-25 00:34:07.234 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 75
+2026-02-25 00:34:11.869 | INFO     | __main__:scrape:140 - 📄 Scraping page 76
+2026-02-25 00:34:16.695 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 76
+2026-02-25 00:34:21.235 | INFO     | __main__:scrape:140 - 📄 Scraping page 77
+2026-02-25 00:34:26.085 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 77
+2026-02-25 00:34:30.503 | INFO     | __main__:scrape:140 - 📄 Scraping page 78
+2026-02-25 00:34:34.389 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 78
+2026-02-25 00:34:39.838 | INFO     | __main__:scrape:140 - 📄 Scraping page 79
+2026-02-25 00:34:42.644 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 79
+2026-02-25 00:34:47.291 | INFO     | __main__:scrape:140 - 📄 Scraping page 80
+2026-02-25 00:34:52.385 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 80
+2026-02-25 00:34:56.861 | INFO     | __main__:scrape:140 - 📄 Scraping page 81
+2026-02-25 00:35:02.304 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 81
+2026-02-25 00:35:06.587 | INFO     | __main__:scrape:140 - 📄 Scraping page 82
+2026-02-25 00:35:11.476 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 82
+2026-02-25 00:35:16.128 | INFO     | __main__:scrape:140 - 📄 Scraping page 83
+2026-02-25 00:35:19.850 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 83
+2026-02-25 00:35:24.363 | INFO     | __main__:scrape:140 - 📄 Scraping page 84
+2026-02-25 00:35:27.524 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 84
+2026-02-25 00:35:32.315 | INFO     | __main__:scrape:140 - 📄 Scraping page 85
+2026-02-25 00:35:37.095 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 85
+2026-02-25 00:35:42.297 | INFO     | __main__:scrape:140 - 📄 Scraping page 86
+2026-02-25 00:35:47.423 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 86
+2026-02-25 00:35:51.618 | INFO     | __main__:scrape:140 - 📄 Scraping page 87
+2026-02-25 00:35:54.651 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 87
+2026-02-25 00:35:59.423 | INFO     | __main__:scrape:140 - 📄 Scraping page 88
+2026-02-25 00:36:02.505 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 88
+2026-02-25 00:36:07.087 | INFO     | __main__:scrape:140 - 📄 Scraping page 89
+2026-02-25 00:36:10.051 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 89
+2026-02-25 00:36:14.737 | INFO     | __main__:scrape:140 - 📄 Scraping page 90
+2026-02-25 00:36:18.103 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 90
+2026-02-25 00:36:22.810 | INFO     | __main__:scrape:140 - 📄 Scraping page 91
+2026-02-25 00:36:28.216 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 91
+2026-02-25 00:36:32.664 | INFO     | __main__:scrape:140 - 📄 Scraping page 92
+2026-02-25 00:36:35.733 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 92
+2026-02-25 00:36:41.397 | INFO     | __main__:scrape:140 - 📄 Scraping page 93
+2026-02-25 00:36:44.293 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 93
+2026-02-25 00:36:48.922 | INFO     | __main__:scrape:140 - 📄 Scraping page 94
+2026-02-25 00:36:54.008 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 94
+2026-02-25 00:36:58.410 | INFO     | __main__:scrape:140 - 📄 Scraping page 95
+2026-02-25 00:37:03.528 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 95
+2026-02-25 00:37:07.840 | INFO     | __main__:scrape:140 - 📄 Scraping page 96
+2026-02-25 00:37:11.173 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 96
+2026-02-25 00:37:15.548 | INFO     | __main__:scrape:140 - 📄 Scraping page 97
+2026-02-25 00:37:18.332 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 97
+2026-02-25 00:37:23.265 | INFO     | __main__:scrape:140 - 📄 Scraping page 98
+2026-02-25 00:37:28.009 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 98
+2026-02-25 00:37:32.451 | INFO     | __main__:scrape:140 - 📄 Scraping page 99
+2026-02-25 00:37:36.350 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 99
+2026-02-25 00:37:41.817 | INFO     | __main__:scrape:140 - 📄 Scraping page 100
+2026-02-25 00:37:46.816 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 100
+2026-02-25 00:37:51.244 | INFO     | __main__:scrape:140 - 📄 Scraping page 101
+2026-02-25 00:37:56.051 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 101
+2026-02-25 00:38:00.429 | INFO     | __main__:scrape:140 - 📄 Scraping page 102
+2026-02-25 00:38:03.431 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 102
+2026-02-25 00:38:07.948 | INFO     | __main__:scrape:140 - 📄 Scraping page 103
+2026-02-25 00:38:12.390 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 103
+2026-02-25 00:38:17.148 | INFO     | __main__:scrape:140 - 📄 Scraping page 104
+2026-02-25 00:38:21.506 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 104
+2026-02-25 00:38:26.946 | INFO     | __main__:scrape:140 - 📄 Scraping page 105
+2026-02-25 00:38:30.543 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 105
+2026-02-25 00:38:36.398 | INFO     | __main__:scrape:140 - 📄 Scraping page 106
+2026-02-25 00:38:40.328 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 106
+2026-02-25 00:38:45.212 | INFO     | __main__:scrape:140 - 📄 Scraping page 107
+2026-02-25 00:38:49.620 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 107
+2026-02-25 00:38:54.182 | INFO     | __main__:scrape:140 - 📄 Scraping page 108
+2026-02-25 00:38:58.904 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 108
+2026-02-25 00:39:04.161 | INFO     | __main__:scrape:140 - 📄 Scraping page 109
+2026-02-25 00:39:07.471 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 109
+2026-02-25 00:39:12.051 | INFO     | __main__:scrape:140 - 📄 Scraping page 110
+2026-02-25 00:39:16.794 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 110
+2026-02-25 00:39:21.159 | INFO     | __main__:scrape:140 - 📄 Scraping page 111
+2026-02-25 00:39:26.243 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 111
+2026-02-25 00:39:30.652 | INFO     | __main__:scrape:140 - 📄 Scraping page 112
+2026-02-25 00:39:33.877 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 112
+2026-02-25 00:39:39.669 | INFO     | __main__:scrape:140 - 📄 Scraping page 113
+2026-02-25 00:39:42.503 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 113
+2026-02-25 00:39:47.585 | INFO     | __main__:scrape:140 - 📄 Scraping page 114
+2026-02-25 00:39:52.382 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 114
+2026-02-25 00:39:57.087 | INFO     | __main__:scrape:140 - 📄 Scraping page 115
+2026-02-25 00:40:01.417 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 115
+2026-02-25 00:40:05.961 | INFO     | __main__:scrape:140 - 📄 Scraping page 116
+2026-02-25 00:40:10.069 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 116
+2026-02-25 00:40:14.530 | INFO     | __main__:scrape:140 - 📄 Scraping page 117
+2026-02-25 00:40:17.385 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 117
+2026-02-25 00:40:25.593 | INFO     | __main__:scrape:140 - 📄 Scraping page 118
+2026-02-25 00:40:28.442 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 118
+2026-02-25 00:40:36.139 | INFO     | __main__:scrape:140 - 📄 Scraping page 119
+2026-02-25 00:40:39.572 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 119
+2026-02-25 00:40:46.601 | INFO     | __main__:scrape:140 - 📄 Scraping page 120
+2026-02-25 00:40:50.792 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 120
+2026-02-25 00:40:58.035 | INFO     | __main__:scrape:140 - 📄 Scraping page 121
+2026-02-25 00:41:02.525 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 121
+2026-02-25 00:41:06.788 | INFO     | __main__:scrape:140 - 📄 Scraping page 122
+2026-02-25 00:41:09.770 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 122
+2026-02-25 00:41:14.700 | INFO     | __main__:scrape:140 - 📄 Scraping page 123
+2026-02-25 00:41:19.737 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 123
+2026-02-25 00:41:24.098 | INFO     | __main__:scrape:140 - 📄 Scraping page 124
+2026-02-25 00:41:28.718 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 124
+2026-02-25 00:41:33.149 | INFO     | __main__:scrape:140 - 📄 Scraping page 125
+2026-02-25 00:41:38.136 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 125
+2026-02-25 00:41:43.018 | INFO     | __main__:scrape:140 - 📄 Scraping page 126
+2026-02-25 00:41:46.835 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 126
+2026-02-25 00:41:51.790 | INFO     | __main__:scrape:140 - 📄 Scraping page 127
+2026-02-25 00:41:55.930 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 127
+2026-02-25 00:42:00.392 | INFO     | __main__:scrape:140 - 📄 Scraping page 128
+2026-02-25 00:42:03.723 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 128
+2026-02-25 00:42:08.238 | INFO     | __main__:scrape:140 - 📄 Scraping page 129
+2026-02-25 00:42:12.454 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 129
+2026-02-25 00:42:17.134 | INFO     | __main__:scrape:140 - 📄 Scraping page 130
+2026-02-25 00:42:19.777 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 130
+2026-02-25 00:42:24.564 | INFO     | __main__:scrape:140 - 📄 Scraping page 131
+2026-02-25 00:42:27.313 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 131
+2026-02-25 00:42:31.910 | INFO     | __main__:scrape:140 - 📄 Scraping page 132
+2026-02-25 00:42:34.825 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 132
+2026-02-25 00:42:40.641 | INFO     | __main__:scrape:140 - 📄 Scraping page 133
+2026-02-25 00:42:45.060 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 133
+2026-02-25 00:42:49.614 | INFO     | __main__:scrape:140 - 📄 Scraping page 134
+2026-02-25 00:42:54.980 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 134
+2026-02-25 00:42:59.205 | INFO     | __main__:scrape:140 - 📄 Scraping page 135
+2026-02-25 00:43:02.328 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 135
+2026-02-25 00:43:06.883 | INFO     | __main__:scrape:140 - 📄 Scraping page 136
+2026-02-25 00:43:12.324 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 136
+2026-02-25 00:43:16.531 | INFO     | __main__:scrape:140 - 📄 Scraping page 137
+2026-02-25 00:43:21.253 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 137
+2026-02-25 00:43:25.767 | INFO     | __main__:scrape:140 - 📄 Scraping page 138
+2026-02-25 00:43:28.727 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 138
+2026-02-25 00:43:33.387 | INFO     | __main__:scrape:140 - 📄 Scraping page 139
+2026-02-25 00:43:37.485 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 139
+2026-02-25 00:43:42.545 | INFO     | __main__:scrape:140 - 📄 Scraping page 140
+2026-02-25 00:43:45.388 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 140
+2026-02-25 00:43:49.994 | INFO     | __main__:scrape:140 - 📄 Scraping page 141
+2026-02-25 00:43:54.267 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 141
+2026-02-25 00:43:58.788 | INFO     | __main__:scrape:140 - 📄 Scraping page 142
+2026-02-25 00:44:02.501 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 142
+2026-02-25 00:44:08.037 | INFO     | __main__:scrape:140 - 📄 Scraping page 143
+2026-02-25 00:44:13.595 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 143
+2026-02-25 00:44:17.872 | INFO     | __main__:scrape:140 - 📄 Scraping page 144
+2026-02-25 00:44:20.606 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 144
+2026-02-25 00:44:26.892 | INFO     | __main__:scrape:140 - 📄 Scraping page 145
+2026-02-25 00:44:30.606 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 145
+2026-02-25 00:44:35.494 | INFO     | __main__:scrape:140 - 📄 Scraping page 146
+2026-02-25 00:44:38.398 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 146
+2026-02-25 00:44:43.455 | INFO     | __main__:scrape:140 - 📄 Scraping page 147
+2026-02-25 00:44:46.966 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 147
+2026-02-25 00:44:51.382 | INFO     | __main__:scrape:140 - 📄 Scraping page 148
+2026-02-25 00:44:54.044 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 148
+2026-02-25 00:44:58.702 | INFO     | __main__:scrape:140 - 📄 Scraping page 149
+2026-02-25 00:45:03.789 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 149
+2026-02-25 00:45:08.256 | INFO     | __main__:scrape:140 - 📄 Scraping page 150
+2026-02-25 00:45:13.564 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 150
+2026-02-25 00:45:17.836 | INFO     | __main__:scrape:140 - 📄 Scraping page 151
+2026-02-25 00:45:22.244 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 151
+2026-02-25 00:45:26.724 | INFO     | __main__:scrape:140 - 📄 Scraping page 152
+2026-02-25 00:45:30.328 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 152
+2026-02-25 00:45:34.631 | INFO     | __main__:scrape:140 - 📄 Scraping page 153
+2026-02-25 00:45:37.886 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 153
+2026-02-25 00:45:42.837 | INFO     | __main__:scrape:140 - 📄 Scraping page 154
+2026-02-25 00:45:45.633 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 154
+2026-02-25 00:45:49.954 | INFO     | __main__:scrape:140 - 📄 Scraping page 155
+2026-02-25 00:45:53.247 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 155
+2026-02-25 00:45:58.150 | INFO     | __main__:scrape:140 - 📄 Scraping page 156
+2026-02-25 00:46:03.141 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 156
+2026-02-25 00:46:14.112 | INFO     | __main__:scrape:140 - 📄 Scraping page 157
+2026-02-25 00:46:16.937 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 157
+2026-02-25 00:46:27.845 | INFO     | __main__:scrape:140 - 📄 Scraping page 158
+2026-02-25 00:46:32.876 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 158
+2026-02-25 00:46:43.534 | INFO     | __main__:scrape:140 - 📄 Scraping page 159
+2026-02-25 00:46:48.984 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 159
+2026-02-25 00:46:59.291 | INFO     | __main__:scrape:140 - 📄 Scraping page 160
+2026-02-25 00:47:04.403 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 160
+2026-02-25 00:47:12.779 | INFO     | __main__:scrape:140 - 📄 Scraping page 161
+2026-02-25 00:47:17.287 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 161
+2026-02-25 00:47:25.144 | INFO     | __main__:scrape:140 - 📄 Scraping page 162
+2026-02-25 00:47:29.562 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 162
+2026-02-25 00:47:36.760 | INFO     | __main__:scrape:140 - 📄 Scraping page 163
+2026-02-25 00:47:39.541 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 163
+2026-02-25 00:47:46.629 | INFO     | __main__:scrape:140 - 📄 Scraping page 164
+2026-02-25 00:47:49.923 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 164
+2026-02-25 00:47:57.493 | INFO     | __main__:scrape:140 - 📄 Scraping page 165
+2026-02-25 00:48:02.385 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 165
+2026-02-25 00:48:10.044 | INFO     | __main__:scrape:140 - 📄 Scraping page 166
+2026-02-25 00:48:13.724 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 166
+2026-02-25 00:48:21.033 | INFO     | __main__:scrape:140 - 📄 Scraping page 167
+2026-02-25 00:48:25.272 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 167
+2026-02-25 00:48:32.635 | INFO     | __main__:scrape:140 - 📄 Scraping page 168
+2026-02-25 00:48:36.490 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 168
+2026-02-25 00:48:44.058 | INFO     | __main__:scrape:140 - 📄 Scraping page 169
+2026-02-25 00:48:48.060 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 169
+2026-02-25 00:48:55.373 | INFO     | __main__:scrape:140 - 📄 Scraping page 170
+2026-02-25 00:48:59.698 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 170
+2026-02-25 00:49:07.011 | INFO     | __main__:scrape:140 - 📄 Scraping page 171
+2026-02-25 00:49:11.726 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 171
+2026-02-25 00:49:19.018 | INFO     | __main__:scrape:140 - 📄 Scraping page 172
+2026-02-25 00:49:22.583 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 172
+2026-02-25 00:49:30.044 | INFO     | __main__:scrape:140 - 📄 Scraping page 173
+2026-02-25 00:49:33.289 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 173
+2026-02-25 00:49:41.256 | INFO     | __main__:scrape:140 - 📄 Scraping page 174
+2026-02-25 00:49:44.160 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 174
+2026-02-25 00:49:51.550 | INFO     | __main__:scrape:140 - 📄 Scraping page 175
+2026-02-25 00:49:55.980 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 175
+2026-02-25 00:50:03.540 | INFO     | __main__:scrape:140 - 📄 Scraping page 176
+2026-02-25 00:50:08.023 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 176
+2026-02-25 00:50:15.200 | INFO     | __main__:scrape:140 - 📄 Scraping page 177
+2026-02-25 00:50:19.979 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 177
+2026-02-25 00:50:27.163 | INFO     | __main__:scrape:140 - 📄 Scraping page 178
+2026-02-25 00:50:32.137 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 178
+2026-02-25 00:50:40.346 | INFO     | __main__:scrape:140 - 📄 Scraping page 179
+2026-02-25 00:50:44.252 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 179
+2026-02-25 00:50:51.197 | INFO     | __main__:scrape:140 - 📄 Scraping page 180
+2026-02-25 00:50:56.463 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 180
+2026-02-25 00:51:03.912 | INFO     | __main__:scrape:140 - 📄 Scraping page 181
+2026-02-25 00:51:07.184 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 181
+2026-02-25 00:51:14.465 | INFO     | __main__:scrape:140 - 📄 Scraping page 182
+2026-02-25 00:51:17.942 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 182
+2026-02-25 00:51:25.171 | INFO     | __main__:scrape:140 - 📄 Scraping page 183
+2026-02-25 00:51:29.624 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 183
+2026-02-25 00:51:37.318 | INFO     | __main__:scrape:140 - 📄 Scraping page 184
+2026-02-25 00:51:41.794 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 184
+2026-02-25 00:51:49.030 | INFO     | __main__:scrape:140 - 📄 Scraping page 185
+2026-02-25 00:51:53.981 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 185
+2026-02-25 00:52:01.062 | INFO     | __main__:scrape:140 - 📄 Scraping page 186
+2026-02-25 00:52:04.131 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 186
+2026-02-25 00:52:10.840 | INFO     | __main__:scrape:140 - 📄 Scraping page 187
+2026-02-25 00:52:14.746 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 187
+2026-02-25 00:52:21.224 | INFO     | __main__:scrape:140 - 📄 Scraping page 188
+2026-02-25 00:52:23.996 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 188
+2026-02-25 00:52:31.112 | INFO     | __main__:scrape:140 - 📄 Scraping page 189
+2026-02-25 00:52:36.392 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 189
+2026-02-25 00:52:43.459 | INFO     | __main__:scrape:140 - 📄 Scraping page 190
+2026-02-25 00:52:47.877 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 190
+2026-02-25 00:52:52.824 | INFO     | __main__:scrape:140 - 📄 Scraping page 191
+2026-02-25 00:52:58.116 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 191
+2026-02-25 00:53:03.309 | INFO     | __main__:scrape:140 - 📄 Scraping page 192
+2026-02-25 00:53:07.356 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 192
+2026-02-25 00:53:12.324 | INFO     | __main__:scrape:140 - 📄 Scraping page 193
+2026-02-25 00:53:16.032 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 193
+2026-02-25 00:53:21.248 | INFO     | __main__:scrape:140 - 📄 Scraping page 194
+2026-02-25 00:53:25.584 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 194
+2026-02-25 00:53:30.542 | INFO     | __main__:scrape:140 - 📄 Scraping page 195
+2026-02-25 00:53:34.819 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 195
+2026-02-25 00:53:40.798 | INFO     | __main__:scrape:140 - 📄 Scraping page 196
+2026-02-25 00:53:44.037 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 196
+2026-02-25 00:53:49.238 | INFO     | __main__:scrape:140 - 📄 Scraping page 197
+2026-02-25 00:53:54.638 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 197
+2026-02-25 00:53:59.867 | INFO     | __main__:scrape:140 - 📄 Scraping page 198
+2026-02-25 00:54:04.510 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 198
+2026-02-25 00:54:10.513 | INFO     | __main__:scrape:140 - 📄 Scraping page 199
+2026-02-25 00:54:14.309 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 199
+2026-02-25 00:54:19.791 | INFO     | __main__:scrape:140 - 📄 Scraping page 200
+2026-02-25 00:54:25.199 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 200
+2026-02-25 00:54:30.720 | INFO     | __main__:scrape:140 - 📄 Scraping page 201
+2026-02-25 00:54:35.186 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 201
+2026-02-25 00:54:40.669 | INFO     | __main__:scrape:140 - 📄 Scraping page 202
+2026-02-25 00:54:44.813 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 202
+2026-02-25 00:54:49.615 | INFO     | __main__:scrape:140 - 📄 Scraping page 203
+2026-02-25 00:54:54.777 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 203
+2026-02-25 00:54:59.851 | INFO     | __main__:scrape:140 - 📄 Scraping page 204
+2026-02-25 00:55:03.298 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 204
+2026-02-25 00:55:08.588 | INFO     | __main__:scrape:140 - 📄 Scraping page 205
+2026-02-25 00:55:13.455 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 205
+2026-02-25 00:55:18.585 | INFO     | __main__:scrape:140 - 📄 Scraping page 206
+2026-02-25 00:55:22.781 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 206
+2026-02-25 00:55:27.800 | INFO     | __main__:scrape:140 - 📄 Scraping page 207
+2026-02-25 00:55:31.555 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 207
+2026-02-25 00:55:36.962 | INFO     | __main__:scrape:140 - 📄 Scraping page 208
+2026-02-25 00:55:39.864 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 208
+2026-02-25 00:55:44.957 | INFO     | __main__:scrape:140 - 📄 Scraping page 209
+2026-02-25 00:55:47.723 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 209
+2026-02-25 00:55:53.053 | INFO     | __main__:scrape:140 - 📄 Scraping page 210
+2026-02-25 00:55:56.122 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 210
+2026-02-25 00:56:01.381 | INFO     | __main__:scrape:140 - 📄 Scraping page 211
+2026-02-25 00:56:06.808 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 211
+2026-02-25 00:56:11.948 | INFO     | __main__:scrape:140 - 📄 Scraping page 212
+2026-02-25 00:56:14.831 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 212
+2026-02-25 00:56:20.021 | INFO     | __main__:scrape:140 - 📄 Scraping page 213
+2026-02-25 00:56:22.711 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 213
+2026-02-25 00:56:27.800 | INFO     | __main__:scrape:140 - 📄 Scraping page 214
+2026-02-25 00:56:31.768 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 214
+2026-02-25 00:56:37.340 | INFO     | __main__:scrape:140 - 📄 Scraping page 215
+2026-02-25 00:56:40.512 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 215
+2026-02-25 00:56:45.629 | INFO     | __main__:scrape:140 - 📄 Scraping page 216
+2026-02-25 00:56:50.071 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 216
+2026-02-25 00:56:55.429 | INFO     | __main__:scrape:140 - 📄 Scraping page 217
+2026-02-25 00:57:00.863 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 217
+2026-02-25 00:57:06.065 | INFO     | __main__:scrape:140 - 📄 Scraping page 218
+2026-02-25 00:57:11.448 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 218
+2026-02-25 00:57:16.697 | INFO     | __main__:scrape:140 - 📄 Scraping page 219
+2026-02-25 00:57:19.408 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 219
+2026-02-25 00:57:24.438 | INFO     | __main__:scrape:140 - 📄 Scraping page 220
+2026-02-25 00:57:29.960 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 220
+2026-02-25 00:57:35.777 | INFO     | __main__:scrape:140 - 📄 Scraping page 221
+2026-02-25 00:57:39.980 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 221
+2026-02-25 00:57:45.316 | INFO     | __main__:scrape:140 - 📄 Scraping page 222
+2026-02-25 00:57:49.525 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 222
+2026-02-25 00:57:54.397 | INFO     | __main__:scrape:140 - 📄 Scraping page 223
+2026-02-25 00:57:57.430 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 223
+2026-02-25 00:58:02.156 | INFO     | __main__:scrape:140 - 📄 Scraping page 224
+2026-02-25 00:58:06.306 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 224
+2026-02-25 00:58:11.116 | INFO     | __main__:scrape:140 - 📄 Scraping page 225
+2026-02-25 00:58:15.835 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 225
+2026-02-25 00:58:20.605 | INFO     | __main__:scrape:140 - 📄 Scraping page 226
+2026-02-25 00:58:23.760 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 226
+2026-02-25 00:58:28.440 | INFO     | __main__:scrape:140 - 📄 Scraping page 227
+2026-02-25 00:58:34.220 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 227
+2026-02-25 00:58:39.714 | INFO     | __main__:scrape:140 - 📄 Scraping page 228
+2026-02-25 00:58:43.754 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 228
+2026-02-25 00:58:48.346 | INFO     | __main__:scrape:140 - 📄 Scraping page 229
+2026-02-25 00:58:51.238 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 229
+2026-02-25 00:58:55.983 | INFO     | __main__:scrape:140 - 📄 Scraping page 230
+2026-02-25 00:58:59.323 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 230
+2026-02-25 00:59:03.969 | INFO     | __main__:scrape:140 - 📄 Scraping page 231
+2026-02-25 00:59:08.279 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 231
+2026-02-25 00:59:13.225 | INFO     | __main__:scrape:140 - 📄 Scraping page 232
+2026-02-25 00:59:16.143 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 232
+2026-02-25 00:59:21.015 | INFO     | __main__:scrape:140 - 📄 Scraping page 233
+2026-02-25 00:59:24.454 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 233
+2026-02-25 00:59:29.270 | INFO     | __main__:scrape:140 - 📄 Scraping page 234
+2026-02-25 00:59:32.763 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 234
+2026-02-25 00:59:38.116 | INFO     | __main__:scrape:140 - 📄 Scraping page 235
+2026-02-25 00:59:42.083 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 235
+2026-02-25 00:59:47.041 | INFO     | __main__:scrape:140 - 📄 Scraping page 236
+2026-02-25 00:59:52.750 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 236
+2026-02-25 00:59:57.480 | INFO     | __main__:scrape:140 - 📄 Scraping page 237
+2026-02-25 01:00:01.105 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 237
+2026-02-25 01:00:05.842 | INFO     | __main__:scrape:140 - 📄 Scraping page 238
+2026-02-25 01:00:09.398 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 238
+2026-02-25 01:00:13.921 | INFO     | __main__:scrape:140 - 📄 Scraping page 239
+2026-02-25 01:00:19.104 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 239
+2026-02-25 01:00:23.774 | INFO     | __main__:scrape:140 - 📄 Scraping page 240
+2026-02-25 01:00:29.315 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 240
+2026-02-25 01:00:33.775 | INFO     | __main__:scrape:140 - 📄 Scraping page 241
+2026-02-25 01:00:39.542 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 241
+2026-02-25 01:00:44.293 | INFO     | __main__:scrape:140 - 📄 Scraping page 242
+2026-02-25 01:00:49.683 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 242
+2026-02-25 01:00:54.443 | INFO     | __main__:scrape:140 - 📄 Scraping page 243
+2026-02-25 01:00:58.365 | INFO     | __main__:scrape:172 - ✅ 25 annonces trouvées sur la page 243
+2026-02-25 01:01:03.130 | INFO     | __main__:scrape:140 - 📄 Scraping page 244
+2026-02-25 01:01:06.775 | INFO     | __main__:scrape:172 - ✅ 22 annonces trouvées sur la page 244
+2026-02-25 01:01:11.163 | INFO     | __main__:scrape:140 - 📄 Scraping page 245
+2026-02-25 01:01:15.834 | WARNING  | __main__:scrape:162 - ⚠️ Aucune annonce trouvée sur la page 245
+2026-02-25 01:01:15.834 | INFO     | __main__:scrape:140 - 📄 Scraping page 246
+2026-02-25 01:01:21.055 | WARNING  | __main__:scrape:162 - ⚠️ Aucune annonce trouvée sur la page 246
+2026-02-25 01:01:21.056 | INFO     | __main__:scrape:140 - 📄 Scraping page 247
+2026-02-25 01:01:25.012 | WARNING  | __main__:scrape:162 - ⚠️ Aucune annonce trouvée sur la page 247
+2026-02-25 01:01:25.014 | INFO     | __main__:scrape:204 - ✅ tunisie_annonce: 6097 annonces trouvées au total
+2026-02-25 01:01:25.014 | INFO     | agents.base_agent:run:107 - ✅ tunisie_annonce terminé: 6097 annonces
+2026-02-25 01:01:25.615 | INFO     | agents.base_agent:run:128 - ⏱️  Temps d'exécution: 2440.0 secondes
