@@ -1,8 +1,11 @@
-import psycopg2               # Pilote PostgreSQL pour Python
-from psycopg2 import sql      # Pour construire des requêtes SQL dynamiques
-from datetime import datetime # Pour les timestamps
-import logging                # Pour les logs
-import json                   # Pour convertir dict → JSON string
+import psycopg2
+from psycopg2 import sql
+from datetime import datetime
+import logging
+import json
+
+# Configuration du logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class DatabaseManager:
     """Gestionnaire de base de données pour tous les agents"""
@@ -16,63 +19,100 @@ class DatabaseManager:
             'host': host,
             'port': port
         }
-        self.init_database() # Crée les tables si elles n'existent pas
+        self.init_database()
     
     def get_connection(self):
         """Établir une connexion à la base"""
-        return psycopg2.connect(**self.conn_params)
+        try:
+            conn = psycopg2.connect(**self.conn_params)
+            return conn
+        except Exception as e:
+            logging.error(f"❌ Erreur de connexion: {e}")
+            raise
     
-    # CRÉATION DES TABLES
     def init_database(self):
-        """Initialiser les tables si elles n'existent pas"""
+        """Initialiser les tables avec le schéma complet des features"""
         try:
             conn = self.get_connection()
             cursor = conn.cursor()
             
-            # Table principale des annonces (avec colonnes TEXT pour éviter les problèmes JSON)
+            # Table principale des annonces
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS annonces (
                     id SERIAL PRIMARY KEY,
+                    
+                    -- Identifiants
                     source_site VARCHAR(50) NOT NULL,
-                    site_url VARCHAR(255),
-                    title TEXT,
-                    description TEXT,
-                    price NUMERIC,
-                    price_text VARCHAR(50),
-                    property_type VARCHAR(100),
-                    location VARCHAR(255),
-                    city VARCHAR(100),
-                    region VARCHAR(100),
-                    surface NUMERIC,
-                    rooms INTEGER,
-                    bedrooms INTEGER,
-                    bathrooms INTEGER,
-                    floor INTEGER,
-                    total_floors INTEGER,
-                    furnished BOOLEAN DEFAULT FALSE,
-                    new_building BOOLEAN DEFAULT FALSE,
-                    with_photo BOOLEAN DEFAULT FALSE,
-                    photo_urls TEXT,
-                    publication_date TIMESTAMP,
-                    scrape_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    agent_name VARCHAR(100),
-                    phone VARCHAR(50),
-                    email VARCHAR(100),
-                    link TEXT UNIQUE,
-                    status VARCHAR(20) DEFAULT 'active',
-                    views INTEGER DEFAULT 0,
+                    code_annonce VARCHAR(100),
+                    url_annonce TEXT UNIQUE,
+                    
+                    -- Classification
+                    nature VARCHAR(50),
+                    type_bien VARCHAR(100),
+                    
+                    -- Localisation
+                    gouvernorat VARCHAR(100),
+                    delegation VARCHAR(100),
+                    localite VARCHAR(100),
+                    code_postal VARCHAR(10),
+                    
+                    -- Caractéristiques de base
+                    prix NUMERIC,
+                    superficie_m2 NUMERIC,
+                    date_publication TIMESTAMP,
+                    titre_foncier VARCHAR(100),
+                    
+                    -- Champs Maison & Appartement
+                    etat VARCHAR(50),
+                    standing VARCHAR(50),
+                    nb_chambres INTEGER,
+                    nb_sdb INTEGER,
+                    dressing BOOLEAN DEFAULT FALSE,
+                    balcon BOOLEAN DEFAULT FALSE,
+                    vue_mer BOOLEAN DEFAULT FALSE,
+                    parking BOOLEAN DEFAULT FALSE,
+                    piscine BOOLEAN DEFAULT FALSE,
+                    chauffage_central BOOLEAN DEFAULT FALSE,
+                    climatisation BOOLEAN DEFAULT FALSE,
+                    jardin BOOLEAN DEFAULT FALSE,
+                    
+                    -- Champs spécifiques Maison
+                    terrasse BOOLEAN DEFAULT FALSE,
+                    niveau_maison VARCHAR(50),
+                    
+                    -- Champs spécifiques Appartement
+                    etage_appart VARCHAR(50),
+                    ascenseur BOOLEAN DEFAULT FALSE,
+                    syndic BOOLEAN DEFAULT FALSE,
+                    
+                    -- Champs spécifiques Terrain
+                    terrain_viabilise BOOLEAN DEFAULT FALSE,
+                    constructible BOOLEAN DEFAULT FALSE,
+                    dimensions_terrain VARCHAR(100),
+                    zone VARCHAR(100),
+                    facade BOOLEAN DEFAULT FALSE,
+                    acces_route BOOLEAN DEFAULT FALSE,
+                    acces_electricite BOOLEAN DEFAULT FALSE,
+                    acces_eau BOOLEAN DEFAULT FALSE,
+                    vocation VARCHAR(100),
+                    
+                    -- Métadonnées
                     metadata TEXT,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    
+                    -- Dates de scraping
+                    scrape_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             """)
             
-            # Index pour les recherches fréquentes
+            # Index pour optimiser les recherches
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_source ON annonces(source_site)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_location ON annonces(location)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_price ON annonces(price)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_date ON annonces(publication_date)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_type ON annonces(property_type)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_type_bien ON annonces(type_bien)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_gouvernorat ON annonces(gouvernorat)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_prix ON annonces(prix)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_date ON annonces(date_publication)")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_code_postal ON annonces(code_postal)")
             
             # Table pour les logs des scrapers
             cursor.execute("""
@@ -98,13 +138,15 @@ class DatabaseManager:
                     id SERIAL PRIMARY KEY,
                     stat_date DATE DEFAULT CURRENT_DATE,
                     source_site VARCHAR(50),
+                    type_bien VARCHAR(100),
                     total_annonces INTEGER DEFAULT 0,
                     nouvelles_annonces INTEGER DEFAULT 0,
                     prix_moyen NUMERIC,
                     prix_min NUMERIC,
                     prix_max NUMERIC,
+                    superficie_moyenne NUMERIC,
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    UNIQUE(stat_date, source_site)
+                    UNIQUE(stat_date, source_site, type_bien)
                 )
             """)
             
@@ -113,6 +155,7 @@ class DatabaseManager:
             
         except Exception as e:
             logging.error(f"❌ Erreur initialisation DB: {e}")
+            raise
         finally:
             if 'cursor' in locals():
                 cursor.close()
@@ -125,85 +168,45 @@ class DatabaseManager:
             conn = self.get_connection()
             cursor = conn.cursor()
             
-            # Vérifier si l'annonce existe déjà (par lien)
-            cursor.execute("SELECT id FROM annonces WHERE link = %s", (annonce_data['link'],))
+            # Vérifier si l'annonce existe déjà
+            url_annonce = annonce_data.get('url_annonce')
+            if not url_annonce:
+                logging.error("❌ url_annonce manquant")
+                return 'error'
+            
+            cursor.execute("SELECT id FROM annonces WHERE url_annonce = %s", (url_annonce,))
             existing = cursor.fetchone()
             
-            # Convertir les dictionnaires en chaînes JSON
+            # Convertir les métadonnées en JSON
             metadata_str = json.dumps(annonce_data.get('metadata', {})) if annonce_data.get('metadata') else None
-            photo_urls_str = json.dumps(annonce_data.get('photo_urls', [])) if annonce_data.get('photo_urls') else None
+            
+            # Préparer les colonnes et valeurs
+            columns = []
+            values = []
+            placeholders = []
+            
+            for key, value in annonce_data.items():
+                if key not in ['metadata'] and value is not None:
+                    columns.append(key)
+                    placeholders.append('%s')
+                    values.append(value)
             
             if existing:
-                # Mise à jour : l'annonce existe déjà
-                query = """
-                    UPDATE annonces SET
-                        title = COALESCE(%s, title),
-                        price = COALESCE(%s, price),
-                        price_text = COALESCE(%s, price_text),
-                        property_type = COALESCE(%s, property_type),
-                        location = COALESCE(%s, location),
-                        city = COALESCE(%s, city),
-                        region = COALESCE(%s, region),
-                        publication_date = COALESCE(%s, publication_date),
-                        with_photo = COALESCE(%s, with_photo),
-                        photo_urls = COALESCE(%s, photo_urls),
-                        metadata = COALESCE(%s, metadata),
-                        updated_at = CURRENT_TIMESTAMP
-                    WHERE link = %s
-                """
-                cursor.execute(query, (
-                    annonce_data.get('title'),
-                    annonce_data.get('price_numeric'),
-                    annonce_data.get('price_text'),
-                    annonce_data.get('property_type'),
-                    annonce_data.get('location'),
-                    annonce_data.get('city'),
-                    annonce_data.get('region'),
-                    annonce_data.get('publication_date'),
-                    annonce_data.get('with_photo', False),
-                    photo_urls_str,
-                    metadata_str,
-                    annonce_data['link']
-                ))
+                # Mise à jour
+                set_clauses = [f"{col} = %s" for col in columns]
+                set_clauses.append("updated_at = CURRENT_TIMESTAMP")
+                query = f"UPDATE annonces SET {', '.join(set_clauses)} WHERE url_annonce = %s"
+                values.append(url_annonce)
+                cursor.execute(query, values)
                 result = 'updated'
             else:
                 # Insertion
-                query = """
-                    INSERT INTO annonces (
-                        source_site, site_url, title, description, price, price_text,
-                        property_type, location, city, region, surface, rooms,
-                        bedrooms, bathrooms, furnished, new_building, with_photo,
-                        photo_urls, publication_date, agent_name, phone, email,
-                        link, metadata
-                    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                             %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                """
-                cursor.execute(query, (
-                    annonce_data.get('source_site'),
-                    annonce_data.get('site_url'),
-                    annonce_data.get('title'),
-                    annonce_data.get('description'),
-                    annonce_data.get('price_numeric'),
-                    annonce_data.get('price_text'),
-                    annonce_data.get('property_type'),
-                    annonce_data.get('location'),
-                    annonce_data.get('city'),
-                    annonce_data.get('region'),
-                    annonce_data.get('surface'),
-                    annonce_data.get('rooms'),
-                    annonce_data.get('bedrooms'),
-                    annonce_data.get('bathrooms'),
-                    annonce_data.get('furnished', False),
-                    annonce_data.get('new_building', False),
-                    annonce_data.get('with_photo', False),
-                    photo_urls_str,
-                    annonce_data.get('publication_date'),
-                    annonce_data.get('agent_name'),
-                    annonce_data.get('phone'),
-                    annonce_data.get('email'),
-                    annonce_data.get('link'),
-                    metadata_str
-                ))
+                columns.append('metadata')
+                placeholders.append('%s')
+                values.append(metadata_str)
+                
+                query = f"INSERT INTO annonces ({', '.join(columns)}) VALUES ({', '.join(placeholders)})"
+                cursor.execute(query, values)
                 result = 'inserted'
             
             conn.commit()
@@ -211,7 +214,8 @@ class DatabaseManager:
             
         except Exception as e:
             logging.error(f"❌ Erreur insertion: {e}")
-            logging.error(f"Donnée problématique: {annonce_data.get('link')}")
+            import traceback
+            traceback.print_exc()
             return 'error'
         finally:
             if 'cursor' in locals():
@@ -225,7 +229,6 @@ class DatabaseManager:
             conn = self.get_connection()
             cursor = conn.cursor()
             
-            # Convertir les stats en JSON string si nécessaire
             details_str = json.dumps(stats.get('details', {})) if stats.get('details') else None
             
             cursor.execute("""
@@ -266,34 +269,84 @@ class DatabaseManager:
             total = cursor.fetchone()[0]
             
             # Répartition par source
-            cursor.execute("""
-                SELECT source_site, COUNT(*) 
-                FROM annonces 
-                GROUP BY source_site
-            """)
-            par_source = cursor.fetchall()
+            cursor.execute("SELECT source_site, COUNT(*) FROM annonces GROUP BY source_site")
+            par_source = dict(cursor.fetchall())
+            
+            # Répartition par type de bien
+            cursor.execute("SELECT type_bien, COUNT(*) FROM annonces WHERE type_bien IS NOT NULL GROUP BY type_bien")
+            par_type = dict(cursor.fetchall())
             
             # Statistiques des prix
             cursor.execute("""
                 SELECT 
-                    AVG(price) as prix_moyen,
-                    MIN(price) as prix_min,
-                    MAX(price) as prix_max
+                    AVG(prix) as prix_moyen,
+                    MIN(prix) as prix_min,
+                    MAX(prix) as prix_max
                 FROM annonces 
-                WHERE price IS NOT NULL
+                WHERE prix IS NOT NULL
             """)
             prix_stats = cursor.fetchone()
+            
+            # Statistiques des superficies
+            cursor.execute("""
+                SELECT 
+                    AVG(superficie_m2) as superficie_moyenne,
+                    MIN(superficie_m2) as superficie_min,
+                    MAX(superficie_m2) as superficie_max
+                FROM annonces 
+                WHERE superficie_m2 IS NOT NULL
+            """)
+            superficie_stats = cursor.fetchone()
             
             cursor.close()
             conn.close()
             
             return {
                 'total': total,
-                'par_source': dict(par_source),
-                'prix_moyen': prix_stats[0],
-                'prix_min': prix_stats[1],
-                'prix_max': prix_stats[2]
+                'par_source': par_source,
+                'par_type': par_type,
+                'prix_moyen': prix_stats[0] if prix_stats else None,
+                'prix_min': prix_stats[1] if prix_stats else None,
+                'prix_max': prix_stats[2] if prix_stats else None,
+                'superficie_moyenne': superficie_stats[0] if superficie_stats else None,
+                'superficie_min': superficie_stats[1] if superficie_stats else None,
+                'superficie_max': superficie_stats[2] if superficie_stats else None,
             }
         except Exception as e:
             logging.error(f"❌ Erreur stats: {e}")
             return {}
+    
+    def get_annonces_by_type(self, type_bien, limit=100):
+        """Récupérer les annonces d'un type spécifique"""
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            
+            cursor.execute("""
+                SELECT * FROM annonces 
+                WHERE type_bien = %s 
+                ORDER BY date_publication DESC
+                LIMIT %s
+            """, (type_bien, limit))
+            
+            columns = [desc[0] for desc in cursor.description]
+            rows = cursor.fetchall()
+            
+            result = [dict(zip(columns, row)) for row in rows]
+            
+            cursor.close()
+            conn.close()
+            
+            return result
+        except Exception as e:
+            logging.error(f"❌ Erreur get_annonces_by_type: {e}")
+            return []
+
+
+if __name__ == "__main__":
+    print("="*60)
+    print("🚀 INITIALISATION DE LA BASE DE DONNÉES")
+    print("="*60)
+    
+    db = DatabaseManager()
+    print("✅ Base de données prête!")

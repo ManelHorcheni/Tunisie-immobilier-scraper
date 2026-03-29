@@ -1,0 +1,16 @@
+2026-03-18 23:41:51.649 | INFO     | __main__:__init__:54 - ✅ Agent Menzili initialisé (headless=False)
+2026-03-18 23:41:51.651 | INFO     | __main__:run:531 - 🚀 Démarrage de menzili
+2026-03-18 23:42:12.365 | INFO     | __main__:init_driver:76 - ✅ Driver initialisé
+2026-03-18 23:42:12.367 | INFO     | __main__:scrape:494 - 🌐 Navigation vers https://www.menzili.tn/immo/vente-immobilier-tunisie
+2026-03-18 23:42:27.025 | INFO     | __main__:scrape:501 - 📊 3 pages détectées
+2026-03-18 23:42:27.025 | INFO     | __main__:scrape_page:431 - 📄 Scraping page 1...
+2026-03-18 23:42:31.192 | WARNING  | __main__:scrape_page:442 - ⚠️ Aucune annonce trouvée
+2026-03-18 23:42:36.406 | INFO     | __main__:scrape:506 - ➡️ Page 2: https://www.menzili.tn/immo/vente-immobilier-tunisie?page=2
+2026-03-18 23:42:45.482 | INFO     | __main__:scrape_page:431 - 📄 Scraping page 2...
+2026-03-18 23:42:50.357 | WARNING  | __main__:scrape_page:442 - ⚠️ Aucune annonce trouvée
+2026-03-18 23:42:59.804 | INFO     | __main__:scrape:506 - ➡️ Page 3: https://www.menzili.tn/immo/vente-immobilier-tunisie?page=3
+2026-03-18 23:43:07.757 | INFO     | __main__:scrape_page:431 - 📄 Scraping page 3...
+2026-03-18 23:43:11.994 | WARNING  | __main__:scrape_page:442 - ⚠️ Aucune annonce trouvée
+2026-03-18 23:43:17.272 | SUCCESS  | __main__:scrape:516 - 🎉 Total: 0 annonces
+2026-03-18 23:43:19.806 | SUCCESS  | __main__:run:535 - ✅ Terminé: 0 annonces
+2026-03-18 23:43:19.947 | INFO     | __main__:run:561 - ⏱️ Temps: 88.3s

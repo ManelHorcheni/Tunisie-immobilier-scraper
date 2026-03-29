@@ -1,0 +1,202 @@
+2026-03-19 00:32:20.171 | INFO     | __main__:__init__:70 - ✅ Agent Afariat initialisé
+2026-03-19 00:32:20.173 | INFO     | __main__:run:494 - 🚀 Démarrage de afariat
+2026-03-19 00:32:28.563 | INFO     | __main__:init_driver:88 - ✅ Driver initialisé
+2026-03-19 00:32:28.564 | INFO     | __main__:scrape:446 - 🌐 Page 1: https://afariat.com/recherche?q=vente&category=Immobilier
+2026-03-19 00:32:38.341 | INFO     | __main__:scrape:455 - 📊 Nombre de pages inconnu, scraping jusqu'à 20 pages
+2026-03-19 00:32:38.342 | INFO     | __main__:scrape_page:401 - 📄 Page 1...
+2026-03-19 00:32:41.056 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:32:41.412 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:32:42.240 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:32:42.241 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:32:54.773 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:32:57.722 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:32:59.792 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:33:02.585 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:33:05.304 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:33:08.062 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:33:10.554 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:33:13.044 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:33:15.239 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:33:22.595 | INFO     | __main__:scrape:461 - 🌐 Page 2: https://afariat.com/recherche?q=vente&category=Immobilier&page=2
+2026-03-19 00:33:31.600 | INFO     | __main__:scrape_page:401 - 📄 Page 2...
+2026-03-19 00:33:34.353 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:33:34.709 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:33:35.464 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:33:35.464 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:33:38.291 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:33:48.516 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:33:50.862 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:33:53.740 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:33:55.807 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:33:57.934 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:34:00.802 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:34:03.646 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:34:05.742 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:34:14.830 | INFO     | __main__:scrape:461 - 🌐 Page 3: https://afariat.com/recherche?q=vente&category=Immobilier&page=3
+2026-03-19 00:34:21.733 | INFO     | __main__:scrape_page:401 - 📄 Page 3...
+2026-03-19 00:34:24.535 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:34:24.928 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:34:25.681 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:34:25.682 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:34:28.703 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:34:31.084 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:34:40.777 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:34:43.670 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:34:46.342 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:34:49.299 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:34:52.008 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:34:54.376 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:34:57.144 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:35:04.658 | INFO     | __main__:scrape:461 - 🌐 Page 4: https://afariat.com/recherche?q=vente&category=Immobilier&page=4
+2026-03-19 00:35:12.100 | INFO     | __main__:scrape_page:401 - 📄 Page 4...
+2026-03-19 00:35:14.844 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:35:15.188 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:35:15.976 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:35:15.977 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:35:18.190 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:35:20.374 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:35:22.517 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:35:33.356 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:35:35.952 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:35:38.478 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:35:41.465 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:35:43.880 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:35:46.731 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:35:57.129 | INFO     | __main__:scrape:461 - 🌐 Page 5: https://afariat.com/recherche?q=vente&category=Immobilier&page=5
+2026-03-19 00:36:04.161 | INFO     | __main__:scrape_page:401 - 📄 Page 5...
+2026-03-19 00:36:06.933 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:36:07.296 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:36:08.020 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:36:08.020 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:36:10.987 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:36:14.065 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:36:16.833 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:36:19.405 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:36:30.890 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:36:33.886 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:36:36.133 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:36:39.070 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:36:41.269 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:36:50.679 | INFO     | __main__:scrape:461 - 🌐 Page 6: https://afariat.com/recherche?q=vente&category=Immobilier&page=6
+2026-03-19 00:36:57.695 | INFO     | __main__:scrape_page:401 - 📄 Page 6...
+2026-03-19 00:37:00.457 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:37:00.860 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:37:01.589 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:37:01.589 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:37:03.830 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:37:05.992 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:37:08.817 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:37:11.545 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:37:13.978 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:37:25.348 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:37:27.863 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:37:30.162 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:37:32.528 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:37:41.678 | INFO     | __main__:scrape:461 - 🌐 Page 7: https://afariat.com/recherche?q=vente&category=Immobilier&page=7
+2026-03-19 00:37:47.698 | INFO     | __main__:scrape_page:401 - 📄 Page 7...
+2026-03-19 00:37:50.716 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:37:51.328 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:37:52.275 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:37:52.276 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:37:55.035 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:37:57.538 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:38:00.636 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:38:03.219 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:38:05.562 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:38:08.384 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:38:20.009 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:38:22.644 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:38:25.511 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:38:35.856 | INFO     | __main__:scrape:461 - 🌐 Page 8: https://afariat.com/recherche?q=vente&category=Immobilier&page=8
+2026-03-19 00:38:41.976 | INFO     | __main__:scrape_page:401 - 📄 Page 8...
+2026-03-19 00:38:44.737 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:38:45.133 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:38:45.895 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:38:45.896 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:38:48.562 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:38:51.268 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:38:53.615 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:38:56.700 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:38:58.922 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:39:01.770 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:39:04.379 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:39:15.508 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:39:17.962 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:39:26.572 | INFO     | __main__:scrape:461 - 🌐 Page 9: https://afariat.com/recherche?q=vente&category=Immobilier&page=9
+2026-03-19 00:39:32.452 | INFO     | __main__:scrape_page:401 - 📄 Page 9...
+2026-03-19 00:39:35.284 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:39:35.642 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:39:36.375 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:39:36.376 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:39:39.455 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:39:41.937 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:39:44.702 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:39:47.687 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:39:50.253 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:39:53.340 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:39:56.139 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:39:58.490 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:40:09.424 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:40:16.724 | INFO     | __main__:scrape:461 - 🌐 Page 10: https://afariat.com/recherche?q=vente&category=Immobilier&page=10
+2026-03-19 00:40:22.644 | INFO     | __main__:scrape_page:401 - 📄 Page 10...
+2026-03-19 00:40:25.468 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:40:25.827 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:40:26.548 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:40:26.549 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:40:29.135 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:40:31.863 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:40:34.947 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:40:37.268 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:40:39.986 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:40:42.385 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:40:45.232 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:40:47.866 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:40:50.254 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:41:08.116 | INFO     | __main__:scrape:461 - 🌐 Page 11: https://afariat.com/recherche?q=vente&category=Immobilier&page=11
+2026-03-19 00:41:14.046 | INFO     | __main__:scrape_page:401 - 📄 Page 11...
+2026-03-19 00:41:16.796 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:41:17.209 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:41:17.982 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:41:17.983 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:41:20.174 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:41:22.363 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:41:25.286 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:41:27.916 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:41:30.317 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:41:33.001 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:41:35.691 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:41:38.613 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:41:41.405 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:41:50.989 | INFO     | __main__:scrape:461 - 🌐 Page 12: https://afariat.com/recherche?q=vente&category=Immobilier&page=12
+2026-03-19 00:41:57.734 | INFO     | __main__:scrape_page:401 - 📄 Page 12...
+2026-03-19 00:42:00.481 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:42:00.902 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:42:01.631 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:42:01.632 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:42:04.672 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:42:07.081 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:42:09.996 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:42:12.462 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:42:14.893 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:42:17.759 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:42:19.881 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:42:22.829 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:42:25.329 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:42:34.401 | INFO     | __main__:scrape:461 - 🌐 Page 13: https://afariat.com/recherche?q=vente&category=Immobilier&page=13
+2026-03-19 00:42:41.335 | INFO     | __main__:scrape_page:401 - 📄 Page 13...
+2026-03-19 00:42:44.135 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'card')]': 30 annonces valides
+2026-03-19 00:42:44.586 | INFO     | __main__:get_listings_from_page:358 - ✅ XPath '//div[contains(@class, 'col-12')]': 1 annonces valides
+2026-03-19 00:42:45.431 | INFO     | __main__:scrape_page:414 - ✅ 15 annonces à traiter
+2026-03-19 00:42:45.432 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 1/10
+2026-03-19 00:42:48.313 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 2/10
+2026-03-19 00:42:51.297 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 3/10
+2026-03-19 00:42:53.618 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 4/10
+2026-03-19 00:42:56.648 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 5/10
+2026-03-19 00:42:59.285 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 6/10
+2026-03-19 00:43:02.081 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 7/10
+2026-03-19 00:43:04.719 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 8/10
+2026-03-19 00:43:07.214 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 9/10
+2026-03-19 00:43:09.535 | INFO     | __main__:scrape_page:417 - 🔄 Annonce 10/10
+2026-03-19 00:43:12.118 | INFO     | __main__:scrape:474 - 🛑 Arrêt après 3 pages vides
+2026-03-19 00:43:12.120 | SUCCESS  | __main__:scrape:479 - 🎉 Total: 10 annonces
+2026-03-19 00:43:16.520 | INFO     | __main__:run:502 - ⏱️ Temps: 656.3s

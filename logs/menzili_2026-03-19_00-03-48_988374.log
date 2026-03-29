@@ -1,0 +1,68 @@
+2026-03-19 00:03:48.993 | INFO     | __main__:__init__:67 - ✅ Agent Menzili initialisé (headless=False)
+2026-03-19 00:03:48.994 | INFO     | __main__:run:401 - 🚀 Démarrage de menzili
+2026-03-19 00:04:08.667 | INFO     | __main__:init_driver:86 - ✅ Driver initialisé
+2026-03-19 00:04:08.668 | INFO     | __main__:scrape:379 - 🌐 Page 1: https://www.menzili.tn/immo/vente-immobilier-tunisie
+2026-03-19 00:04:20.353 | INFO     | __main__:scrape_page:339 - 📄 Page 1...
+2026-03-19 00:04:22.404 | INFO     | __main__:get_listings_from_page:325 - ✅ 13 annonces trouvées
+2026-03-19 00:04:22.405 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 1/13
+2026-03-19 00:04:24.755 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 2/13
+2026-03-19 00:04:27.441 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 3/13
+2026-03-19 00:04:30.021 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 4/13
+2026-03-19 00:04:32.533 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 5/13
+2026-03-19 00:04:34.844 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 6/13
+2026-03-19 00:04:37.814 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 7/13
+2026-03-19 00:04:40.050 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 8/13
+2026-03-19 00:04:50.651 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 9/13
+2026-03-19 00:04:53.247 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 10/13
+2026-03-19 00:04:56.001 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 11/13
+2026-03-19 00:04:58.273 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 12/13
+2026-03-19 00:05:00.823 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 13/13
+2026-03-19 00:05:09.823 | INFO     | __main__:scrape:379 - 🌐 Page 2: https://www.menzili.tn/immo/vente-immobilier-tunisie?page=2
+2026-03-19 00:05:23.654 | INFO     | __main__:scrape_page:339 - 📄 Page 2...
+2026-03-19 00:05:25.721 | INFO     | __main__:get_listings_from_page:325 - ✅ 20 annonces trouvées
+2026-03-19 00:05:25.723 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 1/20
+2026-03-19 00:05:28.072 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 2/20
+2026-03-19 00:05:30.427 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 3/20
+2026-03-19 00:05:33.382 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 4/20
+2026-03-19 00:05:35.719 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 5/20
+2026-03-19 00:05:38.615 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 6/20
+2026-03-19 00:05:40.933 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 7/20
+2026-03-19 00:05:43.731 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 8/20
+2026-03-19 00:05:46.164 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 9/20
+2026-03-19 00:05:48.450 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 10/20
+2026-03-19 00:05:51.325 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 11/20
+2026-03-19 00:05:53.902 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 12/20
+2026-03-19 00:05:56.025 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 13/20
+2026-03-19 00:05:58.802 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 14/20
+2026-03-19 00:06:01.775 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 15/20
+2026-03-19 00:06:04.362 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 16/20
+2026-03-19 00:06:11.977 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 17/20
+2026-03-19 00:06:14.969 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 18/20
+2026-03-19 00:06:27.476 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 19/20
+2026-03-19 00:06:29.860 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 20/20
+2026-03-19 00:06:40.100 | INFO     | __main__:scrape:379 - 🌐 Page 3: https://www.menzili.tn/immo/vente-immobilier-tunisie?page=3
+2026-03-19 00:06:48.508 | INFO     | __main__:scrape_page:339 - 📄 Page 3...
+2026-03-19 00:06:50.583 | INFO     | __main__:get_listings_from_page:325 - ✅ 30 annonces trouvées
+2026-03-19 00:06:50.583 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 1/20
+2026-03-19 00:06:53.210 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 2/20
+2026-03-19 00:06:56.259 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 3/20
+2026-03-19 00:06:59.269 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 4/20
+2026-03-19 00:07:02.013 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 5/20
+2026-03-19 00:07:04.944 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 6/20
+2026-03-19 00:07:07.591 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 7/20
+2026-03-19 00:07:10.170 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 8/20
+2026-03-19 00:07:12.505 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 9/20
+2026-03-19 00:07:15.447 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 10/20
+2026-03-19 00:07:18.252 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 11/20
+2026-03-19 00:07:20.642 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 12/20
+2026-03-19 00:07:22.736 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 13/20
+2026-03-19 00:07:25.421 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 14/20
+2026-03-19 00:07:27.633 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 15/20
+2026-03-19 00:07:29.863 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 16/20
+2026-03-19 00:07:32.214 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 17/20
+2026-03-19 00:07:34.685 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 18/20
+2026-03-19 00:07:37.082 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 19/20
+2026-03-19 00:07:39.840 | INFO     | __main__:scrape_page:352 - 🔄 Annonce 20/20
+2026-03-19 00:07:48.594 | SUCCESS  | __main__:scrape:389 - 🎉 Total: 3 annonces
+2026-03-19 00:07:52.741 | SUCCESS  | __main__:run:403 - ✅ Terminé: 3 annonces
+2026-03-19 00:07:52.742 | INFO     | __main__:run:405 - ⏱️ Temps: 243.7s

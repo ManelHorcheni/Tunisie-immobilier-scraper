@@ -1,3 +1,0 @@
-2026-02-25 00:11:18.054 | INFO     | agents.base_agent:run:72 - 🚀 Démarrage de tayara
-2026-02-25 00:11:18.056 | INFO     | __main__:scrape:99 - Scraping Tayara page 1...
-2026-02-25 00:11:21.375 | INFO     | agents.base_agent:run:76 - ✅ tayara terminé: 0 annonces

@@ -1,0 +1,18 @@
+2026-03-19 00:26:25.887 | INFO     | __main__:__init__:81 - ✅ Agent Afariat initialisé (headless=False)
+2026-03-19 00:26:25.888 | INFO     | __main__:run:558 - 🚀 Démarrage du scraping COMPLET de afariat
+2026-03-19 00:26:32.921 | INFO     | __main__:init_driver:100 - ✅ Driver initialisé
+2026-03-19 00:26:32.926 | INFO     | __main__:scrape:509 - 🌐 Page 1: https://afariat.com/recherche?q=vente&category=Immobilier
+2026-03-19 00:26:41.268 | WARNING  | __main__:scrape:519 - ⚠️ Nombre de pages non détecté, scraping jusqu'à 30 pages
+2026-03-19 00:26:41.270 | INFO     | __main__:scrape_page:463 - 📄 Page 1...
+2026-03-19 00:26:43.373 | WARNING  | __main__:scrape_page:473 - ⚠️ Aucune annonce sur page 1
+2026-03-19 00:26:49.920 | INFO     | __main__:scrape:525 - 🌐 Page 2: https://afariat.com/recherche?q=vente&category=Immobilier&page=2
+2026-03-19 00:26:57.786 | INFO     | __main__:scrape_page:463 - 📄 Page 2...
+2026-03-19 00:26:59.938 | WARNING  | __main__:scrape_page:473 - ⚠️ Aucune annonce sur page 2
+2026-03-19 00:27:06.289 | INFO     | __main__:scrape:525 - 🌐 Page 3: https://afariat.com/recherche?q=vente&category=Immobilier&page=3
+2026-03-19 00:27:13.689 | INFO     | __main__:scrape_page:463 - 📄 Page 3...
+2026-03-19 00:27:15.791 | WARNING  | __main__:scrape_page:473 - ⚠️ Aucune annonce sur page 3
+2026-03-19 00:27:15.792 | INFO     | __main__:scrape:538 - 🛑 Arrêt après 3 pages vides
+2026-03-19 00:27:15.793 | SUCCESS  | __main__:scrape:543 - 🎉 Total: 0 annonces
+2026-03-19 00:27:18.420 | SUCCESS  | __main__:run:569 - ✅ Terminé: 0 annonces
+2026-03-19 00:27:18.421 | INFO     | __main__:run:570 - 📊 Statistiques: Pages=0, Nouvelles=0
+2026-03-19 00:27:18.422 | INFO     | __main__:run:573 - ⏱️ Temps: 52.5s
