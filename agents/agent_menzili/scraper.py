@@ -198,7 +198,7 @@ COLS = {
     ],
     'Terrain': COMMON_COLS + [
         'terrain_viabilise','constructible','dimensions_terrain',
-        'zone','facade','acces_route','acces_electricite',
+        'facade','acces_route','acces_electricite',
         'acces_eau','vocation',
     ],
 }
@@ -210,7 +210,7 @@ CSV_NAMES = {
 }
 
 BOOL_FIELDS = [
-    'titre_foncier','vue_mer','dressing','balcon','parking',
+    'vue_mer','dressing','balcon','parking',
     'piscine','chauffage_central','terrasse','jardin','climatisation',
     'ascenseur','syndic','terrain_viabilise','constructible',
     'acces_route','acces_electricite','acces_eau',
@@ -246,6 +246,28 @@ MOTS_CHIFFRES = {
     'un':1,'une':1,'deux':2,'trois':3,'quatre':4,'cinq':5,
     'six':6,'sept':7,'huit':8,'neuf':9,'dix':10,
 }
+
+def detect_titre_foncier(text: str) -> str:
+    """
+    Retourne le type de titre foncier détecté dans le texte :
+    'Titre Bleu', 'Titre Individuel', 'Titre Collectif',
+    'Titre En Cours', 'Titre Rose', 'Oui' (générique), ou 'Non'.
+    """
+    t = text.lower()
+    if re.search(r'titre\s+bleu', t):
+        return 'Titre Bleu'
+    if re.search(r'titre\s+individuel', t):
+        return 'Titre Individuel'
+    if re.search(r'titre\s+collectif|titre\s+indivis|indivision', t):
+        return 'Titre Collectif'
+    if re.search(r'titre\s+en\s+cours|immatriculation\s+en\s+cours', t):
+        return 'Titre En Cours'
+    if re.search(r'titre\s+rose', t):
+        return 'Titre Rose'
+    if re.search(r'titre\s+foncier|papier\s+l[eé]gal|dossier\s+juridique', t):
+        return 'Oui'
+    return 'Non'
+
 
 def mot_to_int(s):
     s = str(s).strip().lower()
@@ -787,8 +809,7 @@ def extract_detail(driver, url: str) -> dict | None:
         item['chauffage_central'] = detect_bool(opt_full, 'chauffage central', 'chauffage')
         item['parking']           = detect_bool(opt_full, 'place de parc', 'parking',
                                                 'garage', 'place de parking')
-        item['titre_foncier']     = detect_bool(opt_full, 'titre foncier', 'titre bleu',
-                                                'titre individuel', 'titre rose')
+        item['titre_foncier']     = detect_titre_foncier(opt_full)
         item['vue_mer']           = detect_bool(opt_full, 'vue mer', 'vue sur mer',
                                                 'bord de mer', 'vue de mer')
 
@@ -825,18 +846,6 @@ def extract_detail(driver, url: str) -> dict | None:
             ]:
                 if any(kw in full.lower() for kw in kws):
                     item['vocation'] = val
-                    break
-
-            # Zone (souvent mentionnée dans la description)
-            for kws, val in [
-                (['zone urbaine','urbain'],         'Urbaine'),
-                (['zone touristique','touristique'],'Touristique'),
-                (['zone agricole','agricole'],      'Agricole'),
-                (['zone industrielle','industriel'],'Industrielle'),
-                (['résidentiel','lotissement'],     'Résidentielle'),
-            ]:
-                if any(kw in full.lower() for kw in kws):
-                    item['zone'] = val
                     break
 
             # Dimensions : "X m × Y m" ou "XxY" ou "X mètres × Y mètres"
@@ -914,7 +923,7 @@ class MenziliScraper:
 
         driver = init_driver(headless=headless)
         try:
-            print(f'\n📋 ÉTAPE 1 — COLLECTE ({max_pages} pages max)')
+            print(f'\n📋 ÉTAPE 1 — COLLECTE (max {max_pages} pages = ~{max_pages*15} annonces)')
             links = collect_links(driver, max_pages)
             if not links:
                 print('❌ Aucun lien trouvé.')
@@ -964,8 +973,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='Scraper menzili.tn — vente immobilière uniquement'
     )
-    parser.add_argument('--pages',    type=int,  default=50,
-                        help='Nombre de pages (défaut: 50, max ~1360)')
+    parser.add_argument('--pages',    type=int,  default=1400,
+                        help='Nombre de pages (défaut: 1400 = toutes les annonces)')
     parser.add_argument('--output',   type=str,  default='.',
                         help='Dossier de sortie')
     parser.add_argument('--headless', action='store_true',
